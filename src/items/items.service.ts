@@ -4,7 +4,6 @@ import { Model } from 'mongoose';
 
 import { CreateItemDto } from './dto/create-item.dto';
 import { Item } from './interfaces/item.interface';
-import { doc } from 'prettier';
 
 @Injectable()
 export class ItemsService {
